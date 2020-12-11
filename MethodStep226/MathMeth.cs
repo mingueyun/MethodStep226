@@ -20,7 +20,7 @@ namespace MethodStep226
         }
         public string math1 (string c )
         {
-            string math1 = c;
+            string math1 = c + 1;
             return math1;
         }
             
