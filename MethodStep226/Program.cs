@@ -22,8 +22,7 @@ namespace MethodStep226
 
             string three = "9";
             string threeThree = mathmeth.math1(three);
-            int threees = Convert.ToInt32(threeThree);
-            Console.WriteLine(threees);
+            Console.WriteLine(threeThree);
 
             Console.ReadLine();
 

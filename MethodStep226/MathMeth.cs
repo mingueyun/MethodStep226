@@ -20,7 +20,9 @@ namespace MethodStep226
         }
         public string math1 (string c )
         {
-            string math1 = c + 1;
+            int stuff = Convert.ToInt32(c);
+            int math2 = stuff + 1;
+            string math1 = Convert.ToString(math2);
             return math1;
         }
             
