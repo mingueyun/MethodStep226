@@ -17,12 +17,14 @@ namespace MethodStep226
 
             decimal two = 6;
             decimal twoTwo = mathmeth.math1(two);
-            Console.WriteLine(twoTwo);
-            Console.ReadLine();
+            int twotwotwo = Convert.ToInt32(twoTwo);
+            Console.WriteLine(twotwotwo);
+          
 
             string three = "9";
             string threeThree = mathmeth.math1(three);
-            Console.WriteLine(threeThree);
+            int threethreethree = Convert.ToInt32(threeThree);
+            Console.WriteLine(threethreethree);
 
             Console.ReadLine();
 

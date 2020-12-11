@@ -16,6 +16,7 @@ namespace MethodStep226
         public decimal math1(decimal b)
         {
             decimal math1 = b / 2;
+            Convert.ToInt32(math1);
             return math1;
         }
         public string math1 (string c )
