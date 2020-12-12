@@ -13,18 +13,18 @@ namespace MethodStep226
             int math1 = a * a;
             return math1;
         }
-        public decimal math1(decimal b)
+        public int math1(decimal b)
         {
             decimal math1 = b / 2;
-            Convert.ToInt32(math1);
-            return math1;
+            int x = Convert.ToInt32(math1);
+            return x;
         }
-        public string math1 (string c )
+        public int math1 (string c )
         {
-            int stuff = Convert.ToInt32(c);
-            int math2 = stuff + 1;
-            string math1 = Convert.ToString(math2);
-            return math1;
+            int iGEt = Convert.ToInt32(c);
+            int math1 =  iGEt % 2;
+            int x = Convert.ToInt32(math1);
+            return x;
         }
             
         
